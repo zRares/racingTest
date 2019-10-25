@@ -1,5 +1,7 @@
 package org.fasttrackit.racinggame;
 
+import java.sql.SQLOutput;
+
 public class App {
     public static void main(String[] args) {
         Car car = new Car();
@@ -15,6 +17,8 @@ public class App {
         engine.cubicCentimeter = 3000;
 
         car.engine = engine;
+
+        System.out.println("Engine details: " + car.engine.manufacturer);
 
 
 
